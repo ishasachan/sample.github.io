@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOG SHOP</title>
+    <link rel="stylesheets" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background: url('dogo/taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg');
+        height: 2800px;
+        color: white;
+        font-family: 'Lobster Two', cursive;
+    }
+    .left{
+    border: 2px ;
+    display: inline-block;
+    top: 17px;
+    left: 34px;
+    margin: 23px;
+}
+.left img{
+    width: 27px;
+}
+.left div {
+    text-align: center;
+    line-height: 20px;
+}
+.mid{
+    border: 2px;
+    display: block;
+    width: 489px;
+    margin: -80px auto;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    color: thistle;
+    padding: 18px;
+    text-decoration: none;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: burlywood;
+}
+.right{
+    border: 2px ;
+    position: absolute;
+    display: inline-block;
+    top: 17px;
+    right: 34px;
+    margin: 12px;
+}
+.btn{
+    padding: 4px 14px;
+    margin: 0px 9px;
+    color: azure;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 10px;
+    cursor: pointer;
+}
+.contain{
+    border-radius: 12px;
+    margin: 199px 112px;
+    padding: 109px 82px;
+    width: 438px;
+    border: 2px solid greenyellow;
+    font-family: 'Lobster Two', cursive;
+}
+.form input{
+    font-size: 20px;
+    margin: 3px auto;
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 6px;
+    border: 2px solid black;
+    font-family: 'Lobster Two', cursive;
+}
+.form h1{text-align: center;}
+.contain button{
+    display: block;
+    width: 392px;
+    margin: auto;
+    border: 2px solid grey;
+}
+</style>
+<body>
+    <header class="header">
+        <!--this is for logo-->
+        <div class="left">
+            <img src="dogo/pettt.jpg">
+            <div>Pawsome store</div>
+        </div>
+        <!--this is for nav bar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class="active" >HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">DOG BREED</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!--this is for buttons-->
+        <div class="right">
+            <button class="btn">EMAIL US</button><button class="btn">CALL US</button>
+        </div>
+    </header>
+    <div class="contain">
+        <form action="#">
+            <div class="form">
+                <h1>All breeds home delievery</h1>       
+                <input type="text" name="NAME" placeholder="type your name">
+            </div>
+            <div class="form">
+                <input type="text" name="BREED" placeholder="breed you want">
+            </div>
+            <div class="form">
+                <input type="text" name="CITY" placeholder="city">
+            </div>
+            <div class="form">
+                <input type="number" name="PHONE NO." placeholder="type your phone no.">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+       </div>
+    </body>
+    </html>
